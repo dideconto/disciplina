@@ -1,0 +1,12 @@
+###
+POST https://localhost:5001/api/produtos/create
+Content-Type: application/json
+
+{
+    "Nome" : "Bolacha",
+    "Descricao" : "Descrição da bola",
+    "Preco" : 3.5
+}
+
+###
+GET https://localhost:5001/api/produtos
